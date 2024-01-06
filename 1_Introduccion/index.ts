@@ -4,9 +4,17 @@ variableNombre: tipo ==> let miVariable:Sting*/
 
 //1-. Iniciamos la variables
 
-let miNumero: number = 10;
-console.log(miNumero);
-console.log("hello word")
-console.log("asdas")
-let nombre = "artur"
-console.log(nombre)
+//BOLEANOS
+let flag: boolean;
+let yes = true;
+let no = false;
+flag = true;
+flag = false;
+
+let state = 2 == 2 ? true : false
+console.log(state)
+
+//no pueden tener numerso y string cuando se declara una variable tipo string o number
+
+//yes = 10 //error
+//state = "hola a todos"; //error
