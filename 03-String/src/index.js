@@ -1,5 +1,5 @@
 "use strict";
-const saludar = "Hola saludos soy Marck";
+const saludar = "        Hola saludos soy Marck";
 console.log(saludar);
 //cuentas la catidad de letras que hay en el texto
 console.log(`cantidad de letras mas espacio ${saludar.length}`);
@@ -11,3 +11,5 @@ console.log(saludar.includes("oy"));
 console.log(saludar.includes("Saludos"));
 //une o concatena dos cadenas de texto
 console.log(saludar.concat("y estoy empezando con TypeScript"));
+//elimina espacios en blanco del inicio(trimStart()) y final(trimEnd())
+console.log(saludar.trim());
