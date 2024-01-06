@@ -18,3 +18,13 @@ console.log(state)
 
 //yes = 10 //error
 //state = "hola a todos"; //error
+
+//NUMEROS
+
+let numero: number;
+let cantidad = 0;
+let numeroDecimal: number = 123.456;
+//let big: bigint = 100n;
+numero = 100
+
+console.log(numero + numeroDecimal);

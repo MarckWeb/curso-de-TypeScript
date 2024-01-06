@@ -14,3 +14,10 @@ console.log(state);
 //no pueden tener numerso y string cuando se declara una variable tipo string o number
 //yes = 10 //error
 //state = "hola a todos"; //error
+//NUMEROS
+let numero;
+let cantidad = 0;
+let numeroDecimal = 123.456;
+//let big: bigint = 100n;
+numero = 100;
+console.log(numero + numeroDecimal);
