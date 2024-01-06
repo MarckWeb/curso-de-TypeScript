@@ -41,6 +41,9 @@ let vocales = "aeiou";
 
 miNombre = "Marck"
 
+//se puede asignar varias variables a la vez
+let numero1 = 1, numero2 = 2, numero3 = 3;
+
 //miApellido = true; //error
 
 
