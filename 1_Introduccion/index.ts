@@ -6,4 +6,7 @@ variableNombre: tipo ==> let miVariable:Sting*/
 
 let miNumero: number = 10;
 console.log(miNumero);
-
+console.log("hello word")
+console.log("asdas")
+let nombre = "artur"
+console.log(nombre)
