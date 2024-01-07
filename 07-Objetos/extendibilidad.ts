@@ -1,4 +1,4 @@
-//Las interfaces pueden extender otras interfaces utilizando la palabra clave extends
+//Las interfaces pueden extender a otras interfaces utilizando la palabra clave extends
 
 interface Animal {
    nombre: string;
@@ -17,6 +17,7 @@ const perro: Perro = {
 
 interface Persona {
    readonly nombre: string;
+   apellido: 'Robin' | 'Bob' | 'Street';
 }
 
 interface Persona {
@@ -36,6 +37,7 @@ interface Persona {
 
 const persona: Persona = {
    nombre: 'Marck',
+   apellido: 'Street',
    edad: 20,
    //no pide el sexo de la persona pro el signo ? en la interfaz
 }
@@ -51,7 +53,7 @@ function mostrarPersona(persona: Persona) {
    }
 }
 
-console.log(mostrarPersona({ nombre: 'Marck', edad: 22 }))
+console.log(mostrarPersona({ nombre: 'Marck', apellido: 'Robin', edad: 22 }))
 
 
 //DECLARACION DE UNA INTERFAs

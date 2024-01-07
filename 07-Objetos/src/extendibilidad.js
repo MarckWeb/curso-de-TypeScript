@@ -1,5 +1,5 @@
 "use strict";
-//Las interfaces pueden extender otras interfaces utilizando la palabra clave extends
+//Las interfaces pueden extender a otras interfaces utilizando la palabra clave extends
 const perro = {
     nombre: 'Achico',
     raza: 'Alaska',
@@ -12,6 +12,7 @@ const perro = {
 // }
 const persona = {
     nombre: 'Marck',
+    apellido: 'Street',
     edad: 20,
     //no pide el sexo de la persona pro el signo ? en la interfaz
 };
@@ -25,4 +26,4 @@ function mostrarPersona(persona) {
         return 'tienes aun menos de 25';
     }
 }
-console.log(mostrarPersona({ nombre: 'Marck', edad: 22 }));
+console.log(mostrarPersona({ nombre: 'Marck', apellido: 'Robin', edad: 22 }));
