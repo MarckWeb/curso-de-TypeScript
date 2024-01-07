@@ -30,3 +30,9 @@ resultado = [...resultado, producto2]; //anadimos mas producto a resultado
 resultado = [producto3, ...resultado]; //anadimos producto3 delante del los productos del resultado
 console.log(resultado);
 console.table(resultado);
+//resumen
+/*
+los arrays se declaran de distintas formas y ninguna tiene ventaja sobre otra, se debe colocar el tipo para ver que valores aceptara el array.
+
+Las tuplas deben tener un numero fijo de elementos y deben estar almacenados segun el orden de la declaracion de los tipos. una tupla se puede convetir en array usando [...tupla] para poder agregar mas elemntos
+*/
