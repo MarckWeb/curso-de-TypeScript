@@ -31,3 +31,4 @@ console.log(miResultado);
 let numero;
 numero = 5;
 console.log(numero);
+//https://learn.microsoft.com/es-es/training/modules/typescript-declare-variable-types/7-collection-types
