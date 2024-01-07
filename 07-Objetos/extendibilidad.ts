@@ -16,7 +16,7 @@ const perro: Perro = {
 //Declaración de Merging: TypeScript permite declarar varias interfaces con el mismo nombre, y se fusionarán en una sola interfaz.
 
 interface Persona {
-   nombre: string;
+   readonly nombre: string;
 }
 
 interface Persona {
@@ -24,7 +24,7 @@ interface Persona {
 }
 
 interface Persona {
-   sexo: string
+   sexo?: string
 }
 
 // Resultado de la fusión
@@ -37,8 +37,34 @@ interface Persona {
 const persona: Persona = {
    nombre: 'Marck',
    edad: 20,
-   sexo: 'masculino'
+   //no pide el sexo de la persona pro el signo ? en la interfaz
 }
 
+//persona.nombre = 'Carlos'; no se puede cambiar pro que la interfaz esta con reaonly
 console.log(persona)
+
+function mostrarPersona(persona: Persona) {
+   if (persona.edad >= 25) {
+      return persona.edad + 'tiene mucha edad'
+   } else {
+      return 'tienes aun menos de 25'
+   }
+}
+
+console.log(mostrarPersona({ nombre: 'Marck', edad: 22 }))
+
+
+//DECLARACION DE UNA INTERFAs
+
+
+interface Objeto {
+   //obligatio usar la propiedad
+   nombreObjeto: string;
+
+   //no es obligatorio usar la propiedad
+   tamañoObjeto?: number;
+
+   //una vez asignado un valor no se puede cambiar mas adelante como una const de js
+   readonly tipoObjeto: string;
+}
 
