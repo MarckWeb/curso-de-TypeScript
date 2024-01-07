@@ -54,6 +54,8 @@ console.log(producto.nombre)
 //segunda forma de acceder al valor de una propiedad
 console.log(producto['nombre'])
 
+
+//cabiamos de valor la propiedad nombre del producto
 producto.nombre = 'Camizas Blancas'
 console.log(producto.nombre)
 console.log(producto)
