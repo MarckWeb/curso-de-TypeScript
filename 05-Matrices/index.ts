@@ -54,15 +54,40 @@ console.log(valorMultidimensional);
 */
 
 
-//tuplas 
+//TUPLAS-. deben tener un numero fijo de elementos, y se debe declarar el tipo por cada elemento de la tupla de forma ordenada. ejemplo
 
 const arrayTuplas: [string, number, boolean] = ['hola', 1, true]
 
-let players: [number, string][];
+//En las tuplas se acceden de la misma manera que un array indicando su indice y con corchetes
+let tuplaPersona: [number, string, string[]] = [2, "miNombre", ["marck", 'uno']]
+console.log(tuplaPersona[2])
 
-players = [
-   [1, 'hello'],
-   [2, 'hola'],
-   [3, 'alo']
+let personas: [number, string][];
+personas = [
+   [1, 'carlos'],
+   [2, 'marck'],
+   [3, 'jhon']
 ]
 
+console.log(personas[1])
+
+for (let i: number = 0; i < 3; i++) {
+   console.log(personas[i][1])
+
+}
+
+
+//Convertir tuplas en array para aumentar elementos
+let miTupla: [number, string, boolean] = [42, "hola", true];
+
+// Convertir la tupla en un array
+let miArray: (number | string | boolean)[] = [...miTupla];
+
+// Usar métodos de array
+miArray.push("otro elemento");
+console.log(miArray); // [42, "hola", true, "nuevo elemento"]
+
+miArray[0] = 100; // 42 cambiara para nuevo mes
+miArray[5] = "index5"; // creamos nuevo elemento en posicion 5 porque no la tenemos
+console.log(miArray)
+console.table(miArray);
