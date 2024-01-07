@@ -87,6 +87,3 @@ for (let i = 0; i < 10; i++) {
 console.log(randomNumbers);
 
 
-
-
-// https://learn.microsoft.com/es-es/training/modules/typescript-declare-variable-types/10-summary-resources
