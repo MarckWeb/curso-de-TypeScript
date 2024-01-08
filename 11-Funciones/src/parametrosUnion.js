@@ -39,3 +39,10 @@ function sumarNumeros(x, y, z) {
 }
 console.log(sumarNumeros(2, 2, 2)); //6
 console.log(sumarNumeros(2, 2)); //4
+//FUNCIONES CON PARAMETROS PREDETERMINADOS
+//al igual que con los parámetros opcionales, los parámetros predeterminados deben aparecer después de los parámetros necesarios en la lista de parámetros.
+function restarNumeros(x, y = 20) {
+    return x - y;
+}
+console.log(restarNumeros(5, 10)); // -5
+console.log(restarNumeros(5)); // -15
