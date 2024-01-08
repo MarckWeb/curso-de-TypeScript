@@ -27,3 +27,15 @@ function sum2(input) {
     }
     return total;
 }
+//FUNCIONES CON PARAMETROS OPCIONALES
+//Los parámetros de ruta se pueden convertir en opcionales si se anexa un signo de interrogación (?) al final del nombre del parámetro.
+function sumarNumeros(x, y, z) {
+    if (z === undefined) {
+        return x + y;
+    }
+    else {
+        return x + y + z;
+    }
+}
+console.log(sumarNumeros(2, 2, 2)); //6
+console.log(sumarNumeros(2, 2)); //4
