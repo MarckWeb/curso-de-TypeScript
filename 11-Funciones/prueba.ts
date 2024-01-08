@@ -24,15 +24,12 @@ let doCalculation = (operation: 'add' | 'subtract'): calculator => {
 console.log(doCalculation('add')(1, 2))
 console.log(doCalculation('subtract')(1, 2))
 
-
 //probando declarar funciones con interface
 
 // interface Calculator {
 //    (x: number, y: number): number;
 
-
 //sobre todo las intefaces en un funciones son muy inprotantes en clases.
-
 
 // }
 //al llamar  a la funcion no es necesario que los nombres de los parametros sean iguales
