@@ -33,3 +33,16 @@ console.log(sum([2, 4, 6]))
 let masNumeros = (numero1: number, numero2: number): number => numero1 + numero2;
 
 console.log(masNumeros(5, 10))
+
+
+//funcion fecla con return
+const total2 = (arrayInput: number[]): number => {
+   let total: number = 0;
+   for (let i = 0; i < arrayInput.length; i++) {
+      if (isNaN(arrayInput[i])) {
+         continue;
+      }
+      total += Number(arrayInput[i]);
+   }
+   return total;
+}
