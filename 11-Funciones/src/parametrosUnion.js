@@ -46,3 +46,26 @@ function restarNumeros(x, y = 20) {
 }
 console.log(restarNumeros(5, 10)); // -5
 console.log(restarNumeros(5)); // -15
+//FUNCIONES CON PARAMETROS REST
+//se usan parametros rest cuando no se sabe la cantidad de parametros que pueda tener la funcion, 
+//Los parámetros de REST se tratan como un número sin límite de parámetros opcionales.
+//un parametro rest debe ser de un tipo u no ser de tipo union
+let agregarVariosNumeros = (numero1, ...restoDeNumeros) => {
+    let total = numero1;
+    for (let contador = 0; contador < restoDeNumeros.length; contador++) {
+        if (isNaN(restoDeNumeros[contador])) {
+            continue;
+        }
+        total += Number(restoDeNumeros[contador]);
+    }
+    return total;
+};
+//La función ahora puede aceptar uno o más valores y devolver el resultado.
+console.log(agregarVariosNumeros(1, 2, 3, 4, 5));
+console.log(agregarVariosNumeros(10));
+console.log(agregarVariosNumeros(10));
+function verMensaje({ texto, remitente }) {
+    console.log(`Mensaje de ${remitente}: ${texto}`);
+}
+//se define parametro desordenado, pero asignando el nombre
+console.log(verMensaje({ remitente: 'Marck', texto: 'Muchas felicidades pro el logro hasta ahora' }));
