@@ -69,7 +69,14 @@ class SubCliente extends Cliente2 {
     mostrarInformacionCompleta() {
         console.log(this.mostrarInformacion() + ` y tu apellido es ${this._apellido}`);
     }
+    mostrarEstado() {
+        return `${this.mostrarInformacion()} y esta feliz`;
+    }
 }
 let nuevoCliente = new SubCliente('Bob', 'Esponja', 200);
+let otroCliente = new SubCliente('Mike', 'Ross');
 console.log(nuevoCliente.mostrarInformacionCompleta());
+console.log(otroCliente.mostrarInformacionCompleta()); // informacion y apellido
+console.log(otroCliente.mostrarEstado()); //resultado esta feliz..
 //ver chekout
+//https://learn.microsoft.com/es-es/training/modules/typescript-declare-instantiate-classes/9-exercise-use-inheritance-extend-class
