@@ -26,4 +26,4 @@ let personas4 = new Persona('martin', 40); //2da instancia
 
 console.log(Persona.obtenerNumeroDePersonas()); //retorna 2 instancias
 
-console.log(`la propieda obtener numero de personas tiene ${Persona.obtenerNumeroDePersonas()} por que se llamo a dos instancias personas3 y personas4`)
+console.log(`la propiedad obtener numero de personas tiene ${Persona.obtenerNumeroDePersonas()} por que se llamo a dos instancias personas3 y personas4`)
