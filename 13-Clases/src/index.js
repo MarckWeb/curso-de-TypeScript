@@ -73,5 +73,5 @@ console.log(miVehiculo.frenar());
 console.log(miVehiculo.girar('derecha'));
 console.log(miVehiculo2.marca);
 //PUBLIC -. Si no especifica un modificador de acceso, el valor predeterminado es público. También puede establecer explícitamente el miembro en público mediante la palabra clave public.
-//PRIVATE -. Si modifica el miembro con la palabra clave private, no se puede tener acceso a él desde fuera de la clase contenedora.
+//-. Si modifica el miembro con la palabra clave private, no se puede tener acceso a él desde fuera de la clase contenedora.
 //PROTECTED -. El modificador protected actúa de forma muy similar al modificador private, con la excepción de que también se puede tener acceso a los miembros declarados protected dentro de las clases derivadas.
