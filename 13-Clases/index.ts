@@ -1,6 +1,17 @@
 
 //creacion de un clase
 
+//Los getters se utilizan para obtener el valor de una propiedad, mientras que los setters se utilizan para asignar un nuevo valor a una propiedad, con la posibilidad de realizar validaciones o lógica adicional antes de realizar la asignación.
+
+/*
+// Utilizar el getter para obtener el nombre
+console.log(persona1.nombre); // Output: Juan
+
+// Utilizar el setter para modificar el nombre
+persona1.nombre = "Carlos";
+console.log(persona1.nombre); // Output: Carlos
+*/
+
 class Vehiculo {
    _marca: string;
    _color: string;
@@ -66,6 +77,10 @@ let miVehiculo = new Vehiculo('kia', 'Azul', 4);
 //Parametro que se pasa al constructor
 console.log(miVehiculo.color);
 
+//modificando valor del color usa get
+miVehiculo.color = 'Amarillo';
+console.log(miVehiculo)
+
 //Propiedad definida en la clase
 console.log(miVehiculo._color);
 
@@ -82,4 +97,4 @@ console.log(miVehiculo.frenar());
 console.log(miVehiculo.girar('derecha'));
 
 
-//https://learn.microsoft.com/es-es/training/modules/typescript-declare-instantiate-classes/5-access-modifiers
+console.log(miVehiculo2.marca)
