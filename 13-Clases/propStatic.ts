@@ -3,6 +3,7 @@
 
 class Persona {
    //propiedades
+   // También podemos crear miembros estáticos de una clase, aquellos que son visibles en la clase misma y no en las instancias
    private static numeroDePersonas: number = 0 //nueva porpiedad statica
    private _nombre: string;
    private _edad: number;

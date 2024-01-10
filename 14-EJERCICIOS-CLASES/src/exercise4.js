@@ -37,14 +37,10 @@ class Punto extends Operation1 {
             : console.log(`Los números introducidos están en el cuadrante ${cuadrante}.`);
     }
 }
-//}
-// let primerPunto = new Punto(parseInt(prompt('Intro a number x')), parseInt(prompt('Intro a number y')))
-// console.log(primerPunto)
-// primerPunto.meetingPoints()
 const xInput = prompt('Introduce un número x');
 const yInput = prompt('Introduce un número y');
 const x = xInput ? parseInt(xInput) : 0;
 const y = yInput ? parseInt(yInput) : 0;
 const primerPunto = new Punto(x, y);
-console.log(primerPunto._valueOne = 50);
+//console.log(primerPunto._valueOne = 50); //error
 primerPunto.meetingPoints();

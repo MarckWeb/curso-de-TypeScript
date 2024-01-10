@@ -13,6 +13,7 @@ class Persona {
     }
 }
 //propiedades
+// También podemos crear miembros estáticos de una clase, aquellos que son visibles en la clase misma y no en las instancias
 Persona.numeroDePersonas = 0; //nueva porpiedad statica
 //instancia de peronas con todos los parametros
 let personas3 = new Persona('carlos', 30); //1ra instancia

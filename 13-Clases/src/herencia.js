@@ -78,5 +78,33 @@ let otroCliente = new SubCliente('Mike', 'Ross');
 console.log(nuevoCliente.mostrarInformacionCompleta());
 console.log(otroCliente.mostrarInformacionCompleta()); // informacion y apellido
 console.log(otroCliente.mostrarEstado()); //resultado esta feliz..
-//ver chekout
-//https://learn.microsoft.com/es-es/training/modules/typescript-declare-instantiate-classes/9-exercise-use-inheritance-extend-class
+console.log('-----------------------------///.........');
+console.log(otroCliente.bienvenida()); //resultado esta feliz..
+//-------/////..........///----------//
+class Animal {
+    constructor(theName) {
+        this.name = theName;
+    }
+    move(distanceInMeters = 0) {
+        console.log(`${this.name} moved ${distanceInMeters}m.`);
+    }
+}
+class Snake extends Animal {
+    move(distanceInMeters = 5) {
+        console.log("Slithering...");
+        super.move(distanceInMeters); // Llama al método move de la clase base Animal
+    }
+}
+class Horse extends Animal {
+    move(distanceInMeters = 45) {
+        console.log("Galloping...");
+        //super ocupa el metodo la la clase base tal cual sin cambiar nada
+        super.move(distanceInMeters); // Llama al método move de la clase base Animal
+    }
+}
+let dvd = new Animal('dvd');
+let sam = new Snake("Sammy the Python");
+let tom = new Horse("Tommy the Palomino");
+dvd.move(200);
+sam.move(); // Slithering... \n Sammy the Python moved 5m.
+tom.move(34); // Gall
