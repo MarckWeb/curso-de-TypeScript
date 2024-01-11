@@ -34,7 +34,4 @@ console.log(process.env.WEB_HOST);
 // Organizar el código mediante módulos
 // Importar una biblioteca de tipos externa
 
-//https://learn.microsoft.com/es-es/training/modules/typescript-work-external-libraries/6-lab
-
-//valido.............
-//https://learn.microsoft.com/es-es/training/modules/typescript-namespaces-organize-code/
+//https://learn.microsoft.com/es-es/training/modules/typescript-namespaces-organize-code/7-knowledge-check
