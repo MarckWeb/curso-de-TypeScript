@@ -28,8 +28,7 @@ let returnString2 = identity2<string, string>('100', 'Hola!');     // OK
 
 //es decir K debe ser una clave validad el tipo T
 
-//FUNCION GENERICA
-//pet es el objeto y K clave
+//FUNCION GENERICA-. se usan con objetos donde, pet T es el objeto y K clave, y retonamara el objeto y la clave y mostrara valor. enviado como parametro
 function getPets<T, K extends keyof T>(pet: T, key: K): T[K] {
    //T es el tipo del objeto pet.
    //K es el tipo de la clave que se pasa como argumento.
@@ -42,3 +41,34 @@ let pets2 = { 1: "cats", 2: "dogs", 3: "parrots", 4: "fish" }
 console.log(getPets(pets1, "fish"));  // Returns 6
 //console.log(getPets(pets2, "3"));     // Error
 console.log(getPets(pets2, 3));     // "parrots" Correcto
+
+
+
+//Uso de restricciones de tipos con genéricos
+
+//Puede usar la restricción de tipos typeof en un bloque if para comprobar el tipo del parámetro value antes de realizar una operación
+
+//type ValidTypes1 = string | number;
+//no se cabe que devolvera pro lo tanto no se coloca el parametro de return
+function identity4<T extends ValidTypes, U>(value: T, message: U) {   // Return type is inferred
+   let result: ValidTypes = '';
+   let typeValue: string = typeof value;
+
+   if (typeof value === 'number') {           // Is it a number?
+      result = value + value;                // OK
+   } else if (typeof value === 'string') {    // Is it a string?
+      result = value + value;                // OK
+   }
+
+   console.log(`The message is ${message} and the function returns a ${typeValue} value of ${result}`);
+
+   return result
+}
+
+let numberValue4 = identity4<number, string>(100, 'Hello');
+let stringValue4 = identity4<string, string>('100', 'Hello');
+
+console.log(numberValue4);       // Returns 200
+console.log(stringValue4);       // Returns 100100
+
+///Solo se puede usar una restricción de tipos typeof para comprobar los tipos primitivos string, number, bigint, function, boolean, symbol, object y sin definir. Para comprobar el tipo de una clase, use una restricción de tipos instanceof.
