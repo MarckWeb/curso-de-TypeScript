@@ -1,0 +1,17 @@
+"use strict";
+// function greet(name: string) {
+//    console.log(`hola ${name}`)
+// }
+// greet('david')
+const resultado = () => {
+    return Math.floor(Math.random() * 100);
+};
+console.log(resultado());
+const position = (position) => {
+    console.log(position.lat, position.long);
+};
+position({ lat: 10, long: 20 });
+const position1 = (position = { lat: 20, long: 'hola' }) => {
+    console.log(position.lat, position.long);
+};
+position1({ lat: 10, long: 20 });
