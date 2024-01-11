@@ -65,15 +65,24 @@ class Truck extends Car {
         this.doors = 2;
     }
 }
+//los parametros deben exterder de car y devolver car
 function accelerate(car) {
     console.log(`All ${car.doors} doors are closed.`);
     console.log(`The ${car.make} is now accelerating!`);
     return car;
 }
 let myElectricCar = new ElectricCar;
+//toma los valores de la clase electricCar
 accelerate(myElectricCar);
 let myTruck = new Truck;
+//toma valores de la clase truck
+console.log('=====>');
 accelerate(myTruck);
+let myCar = new Car;
+accelerate(myCar);
+//otros valores
+let ace = accelerate({ make: 'sss', doors: 4 });
+console.log(ace);
 //salida de la consola
 // "All 4 doors are closed."
 // "The Electric Car is now accelerating!"
@@ -82,4 +91,3 @@ accelerate(myTruck);
 // Uso de restricciones genéricas con tipos y clases personalizados
 // Anteriormente en el módulo, ha aprendido a usar restricciones genéricas para limitar los tipos. Las restricciones genéricas no solo se pueden aplicar a tipos nativos, sino también a clases.
 // Para ello, puede definir una interfaz y usar la palabra clave extend con la variable de tipo para extenderla. En el ejemplo anterior se restringe el tipo T adjuntándole una restricción: T debe extender Car.
-//https://learn.microsoft.com/es-es/training/modules/typescript-generics/5-implement-generics-custom-types-classes
