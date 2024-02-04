@@ -47,6 +47,6 @@ const employeOne = new Employee(2, 'dvd', 'sales')
 console.log(employeOne)
 ```
 
-### readonñy
+### readonly
 
-es de solo lectura, despues de que se inicializa
+En TypeScript, al marcar una variable con readonly, se impide su modificación después de la asignación inicial, proporcionando una inmutabilidad a los datos.

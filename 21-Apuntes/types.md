@@ -19,7 +19,7 @@ const distancia = calcularDistancia(punto1, punto2);
 console.log(`La distancia entre los puntos es ${distancia}`);
 ```
 
-```
+```ts
 // Definimos un tipo para representar una persona
 type Persona = {
   nombre: string;
@@ -34,7 +34,9 @@ type Persona = {
 function mostrarInformacionPersona(persona: Persona): void {
   console.log(`Nombre: ${persona.nombre}`);
   console.log(`Edad: ${persona.edad}`);
-  console.log(`Dirección: ${persona.direccion.calle}, ${persona.direccion.ciudad}`);
+  console.log(
+    `Dirección: ${persona.direccion.calle}, ${persona.direccion.ciudad}`
+  );
 }
 
 // Creamos una instancia de Persona
