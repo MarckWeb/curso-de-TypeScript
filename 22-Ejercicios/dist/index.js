@@ -64,3 +64,42 @@ console.assert(potencia(2, 3) === 8);
 console.assert(potencia(2) === 4);
 console.assert(calcularMedia(1, 2, 3, 4) === 2.5);
 //https://app.certidevs.com/roadmap/a54c6d62-128d-7cb3-a1c6-8d05a9c4a05a
+/*
+1. La clase debe llamarse "Employee".
+2. La clase debe tener cuatro atributos tipados:
+firstName: string
+lastName: string
+position: string
+salary: number
+3. Debes crear métodos "getters" y "setters" para cada uno de los atributos.
+*/
+class Employee {
+    constructor(firstName, lastName, position, salary) {
+        this._firstName = firstName,
+            this._lastName = lastName,
+            this._position = position,
+            this._salary = salary;
+    }
+    setFirstName(firstName) {
+        return this._firstName = firstName;
+    }
+    getFirstName() {
+        return this._firstName;
+    }
+    getLastName() {
+        return this._lastName;
+    }
+    getPosition() {
+        return this._position;
+    }
+    getSalary() {
+        return this._salary;
+    }
+}
+const empleado = new Employee("Carlos", "González", "Desarrollador", 50000);
+console.log(empleado.getFirstName()); // Debe imprimir "Carlos"
+console.log(empleado.getLastName()); // Debe imprimir "González"
+console.log(empleado.getPosition()); // Debe imprimir "Desarrollador"
+console.log(empleado.getSalary()); // Debe imprimir 50000
+empleado.setFirstName("María");
+console.log(empleado.getFirstName()); // Debe imprimir "María"
