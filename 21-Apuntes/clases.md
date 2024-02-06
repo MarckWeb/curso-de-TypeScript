@@ -18,33 +18,30 @@ PRIVATE-. se puede utilizar solo en la clase padre y no en los demas
 
 protected -. se extiende solo a su herencia mas no a mas
 
-```
+```ts
 //clases sirven para organizar codigo, no deha de ser objeto
 
 class Employee {
-   // Atributos -. variables o proiedades de la clase se puede ocntrolar dentro o
+  // Atributos -. variables o proiedades de la clase se puede ocntrolar dentro o
 
-   id?: number;
-   name?: string;
-   dept?: string;
+  id?: number;
+  name?: string;
+  dept?: string;
 
-   constructor(id: number, name: string, dept: string) {
-      this.id = id,
-         this.name = name,
-         this.dept = dept,
-         this.showInfo();
-   }
+  constructor(id: number, name: string, dept: string) {
+    (this.id = id), (this.name = name), (this.dept = dept), this.showInfo();
+  }
 
-   // metodos -. son acciones que podemso llevar a cabo dentro de la clase o frura dependera de la visibilidad que le demos.
+  // metodos -. son acciones que podemso llevar a cabo dentro de la clase o frura dependera de la visibilidad que le demos.
 
-   showInfo(): void {
-      console.log(this.name)
-   }
+  showInfo(): void {
+    console.log(this.name);
+  }
 }
 //unainstancia de la clase employe
-const employeOne = new Employee(2, 'dvd', 'sales')
+const employeOne = new Employee(2, "dvd", "sales");
 
-console.log(employeOne)
+console.log(employeOne);
 ```
 
 ### readonly
