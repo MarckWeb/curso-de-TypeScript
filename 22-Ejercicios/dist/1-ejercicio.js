@@ -81,7 +81,16 @@ class Employee {
             this._salary = salary;
     }
     setFirstName(firstName) {
-        return this._firstName = firstName;
+        this._firstName = firstName;
+    }
+    setLastName(lastName) {
+        this._lastName = lastName;
+    }
+    setPosition(position) {
+        this._position = position;
+    }
+    setSalary(salary) {
+        this._salary = salary;
     }
     getFirstName() {
         return this._firstName;
