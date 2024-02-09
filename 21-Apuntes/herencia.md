@@ -111,6 +111,25 @@ class Loro extends Ave {
 }
 ```
 
+Ejercio donde hace que nRuedas se vuelva automaticamente igual a 4
+
+```ts
+class Vehiculo {
+  nRuedas: number;
+
+  constructor(nRuedas: number) {
+    this.nRuedas = nRuedas;
+  }
+}
+
+class Coche extends Vehiculo {
+  typescript;
+  constructor() {
+    super(4);
+  }
+}
+```
+
 En resumen, la herencia en TypeScript permite que una clase adquiera las propiedades y métodos de otra clase, lo que facilita la reutilización del código y la creación de jerarquías de clases. Mediante el uso de la palabra clave extends, una clase hija puede heredar de una clase padre y agregar o modificar su comportamiento según sea necesario. Esto promueve la modularidad, el mantenimiento del código y la organización eficiente de las funcionalidades relacionadas.
 
 ### Aprendizajes de esta lección
