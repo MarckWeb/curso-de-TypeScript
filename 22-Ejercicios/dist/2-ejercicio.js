@@ -22,16 +22,16 @@ class Computer {
     setBrand(brand) {
         this.brand = brand;
     }
-    get _cpu() {
+    getCpu() {
         return this.cpu;
     }
-    set _cpu(cpu) {
+    setCpu(cpu) {
         this.cpu = cpu;
     }
-    get _ram() {
+    getRam() {
         return this.ram;
     }
-    set _ram(ram) {
+    setRam(ram) {
         this.ram = ram;
     }
 }
@@ -47,10 +47,10 @@ class Laptop extends Computer {
     setBatteryLife(batteryLife) {
         this.batteryLife = batteryLife;
     }
-    get _weight() {
+    getWeight() {
         return this.weight;
     }
-    set _weight(weight) {
+    setWeight(weight) {
         this.weight = weight;
     }
 }
