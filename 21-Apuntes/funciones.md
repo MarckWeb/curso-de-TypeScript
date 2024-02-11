@@ -43,7 +43,7 @@ En este caso, la función suma acepta dos parámetros de tipo number y devuelve 
 
 Puedes declarar parámetros opcionales utilizando el signo de interrogación ?:
 
-```
+```ts
 function saludarConNombre(nombre?: string): void {
   if (nombre) {
     console.log(`¡Hola, ${nombre}!`);
@@ -59,7 +59,7 @@ En este ejemplo, nombre es un parámetro opcional, por lo que puedes llamar a la
 
 Puedes asignar valores por defecto a los parámetros de la función:
 
-```
+```ts
 function saludarPersonalizado(nombre: string = "Usuario"): void {
   console.log(`¡Hola, ${nombre}!`);
 }

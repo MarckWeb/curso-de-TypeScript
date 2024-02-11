@@ -61,6 +61,32 @@ interface Empleado extends Persona {
 
 Aquí, se ha creado la interfaz Empleado que extiende la interfaz Persona. La interfaz Empleado tiene las mismas propiedades y métodos que la interfaz Persona, pero también agrega dos nuevas propiedades: id de tipo number y cargo de tipo string. De esta manera, un objeto Empleado debe tener todas las propiedades y métodos de la interfaz Persona, además de las propiedades adicionales definidas en la interfaz Empleado.
 
+### inteface
+
+se refieran a declaran variables con sus tipos las cuales se utilizaran ya sea en objetos o array, el cual un interface se puede extender sus datos a otro interface.
+
+```ts
+//interface extends
+interface Person {
+  id: number;
+  name: string;
+}
+
+interface Employes extends Person {
+  dept: string;
+}
+
+interface Customer extends Person {
+  country: string;
+}
+
+const customer: Customer = {
+  country: "city",
+  id: 1,
+  name: "vs",
+};
+```
+
 En resumen, las interfaces en TypeScript son una forma poderosa de definir la estructura y el contrato que deben seguir los objetos en un sistema de tipos estático. Permiten establecer un conjunto de propiedades y métodos que los objetos deben tener para cumplir con una interfaz específica. Esto proporciona una verificación estática y ayuda a prevenir errores comunes al trabajar con objetos en TypeScript.
 
 ### Aprendizajes de esta lección
