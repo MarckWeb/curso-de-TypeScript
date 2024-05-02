@@ -2,7 +2,7 @@
 
 ¡Bienvenido al repositorio del **Curso de TypeScript**! Aquí encontrarás una amplia colección de ejercicios, textos explicativos y soluciones que te guiarán desde los fundamentos básicos hasta conceptos avanzados en TypeScript.
 
-![TypeScript Logo](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg)
+![TypeScript Logo](https://img.icons8.com/material-sharp/48/000000/typescript.png)
 
 ## ¿Qué es TypeScript?
 
@@ -12,22 +12,22 @@ TypeScript es un lenguaje de programación desarrollado por Microsoft que añade
 
 ### Fundamentos de TypeScript
 
-- <span style="color:#2E8B57;">Variables en TypeScript</span>: Aprende cómo declarar variables y sus tipos en TypeScript.
-- <span style="color:#2E8B57;">Tipos de Datos</span>: Exploraremos los diferentes tipos de datos disponibles en TypeScript, como string, number, boolean, entre otros.
-- <span style="color:#2E8B57;">Funciones</span>: Aprende a definir funciones y a especificar los tipos de sus parámetros y valores de retorno.
-- <span style="color:#2E8B57;">Interfaces</span>: Descubre cómo definir estructuras de datos complejas utilizando interfaces.
-- <span style="color:#2E8B57;">Clases</span>: Aprende sobre la programación orientada a objetos en TypeScript mediante el uso de clases.
+- 🌟 **Variables en TypeScript**: Aprende cómo declarar variables y sus tipos en TypeScript.
+- 🌟 **Tipos de Datos**: Exploraremos los diferentes tipos de datos disponibles en TypeScript, como string, number, boolean, entre otros.
+- 🌟 **Funciones**: Aprende a definir funciones y a especificar los tipos de sus parámetros y valores de retorno.
+- 🌟 **Interfaces**: Descubre cómo definir estructuras de datos complejas utilizando interfaces.
+- 🌟 **Clases**: Aprende sobre la programación orientada a objetos en TypeScript mediante el uso de clases.
 
 ### Avanzado
 
-- <span style="color:#2E8B57;">Genéricos</span>: Explora el poder de los tipos genéricos para crear funciones y clases flexibles y reutilizables.
-- <span style="color:#2E8B57;">Decoradores</span>: Descubre cómo utilizar los decoradores para añadir metadatos y funcionalidades adicionales a tus clases y métodos.
-- <span style="color:#2E8B57;">Namespace y Módulos</span>: Aprende a organizar tu código en espacios de nombres y módulos para evitar colisiones de nombres y facilitar la reutilización.
+- 🌟 **Genéricos**: Explora el poder de los tipos genéricos para crear funciones y clases flexibles y reutilizables.
+- 🌟 **Decoradores**: Descubre cómo utilizar los decoradores para añadir metadatos y funcionalidades adicionales a tus clases y métodos.
+- 🌟 **Namespace y Módulos**: Aprende a organizar tu código en espacios de nombres y módulos para evitar colisiones de nombres y facilitar la reutilización.
 
 ### Prácticas y Ejercicios
 
-- <span style="color:#2E8B57;">Ejercicios Básicos</span>: Una serie de ejercicios para practicar los conceptos básicos de TypeScript.
-- <span style="color:#2E8B57;">Proyectos Prácticos</span>: Desafíos y proyectos prácticos para aplicar los conocimientos adquiridos en situaciones del mundo real.
+- 🌟 **Ejercicios Básicos**: Una serie de ejercicios para practicar los conceptos básicos de TypeScript.
+- 🌟 **Proyectos Prácticos**: Desafíos y proyectos prácticos para aplicar los conocimientos adquiridos en situaciones del mundo real.
 
 ## Recursos Adicionales
 
