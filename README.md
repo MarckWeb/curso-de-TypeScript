@@ -4,8 +4,9 @@
 
 ---
 <div align="center">
-    <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" alt="GIF de TypeScript" width="200"/>
+    <img src="https://media.giphy.com/media/ToMjGpDPnW6JW3cckEw/giphy.gif" alt="GIF de TypeScript" width="200"/>
 </div>
+
 ---
 
 ## ¿Qué es TypeScript?
