@@ -1,12 +1,13 @@
 <h1 align="center">Apuntes de TypeScript</h1>
 
-¡Bienvenido al repositorio del **Curso de TypeScript**! Aquí encontrarás una amplia colección de ejercicios, textos explicativos y soluciones que te guiarán desde los fundamentos básicos hasta conceptos avanzados en TypeScript.
+¡Bienvenido a mi repositorio de apuntes de Typescript!
+
+En este repositorio, encontrarás todos mis apuntes y notas que tomé mientras realizaba el curso de TypeScript. Desde conceptos básicos hasta temas más avanzados, aquí encontrarás recursos útiles para aprender y repasar TypeScript.
 
 ---
 <div align="center">
     <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" width="200"/>
 </div>
-
 ---
 
 ## ¿Qué es TypeScript?
