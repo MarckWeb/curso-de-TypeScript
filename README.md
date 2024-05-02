@@ -4,7 +4,7 @@
 
 ---
 <div align="center">
-    <img src="https://tenor.com/es/view/typescript-script-type-heart-beloved-gif-27005865" alt="GIF de TypeScript" width="200"/>
+    <img src="https://media.giphy.com/media/l49JHz7kJvl6MC2aM/giphy.gif" alt="GIF de TypeScript" width="200"/>
 </div>
 
 ---
