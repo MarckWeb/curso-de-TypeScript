@@ -4,7 +4,7 @@
 
 ---
 <div align="center">
-    <img src="https://media.giphy.com/media/l49JHz7kJvl6MC2aM/giphy.gif" alt="GIF de TypeScript" width="200"/>
+    <img src="https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif" width="200"/>
 </div>
 
 ---
