@@ -4,7 +4,7 @@
 
 ---
 <div align="center">
-    <img src="https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif" width="200"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2022.svg/250px-Typescript_logo_2022.svg.png" width="200"/>
 </div>
 
 ---
