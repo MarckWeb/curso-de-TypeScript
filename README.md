@@ -2,7 +2,7 @@
 
 ¡Bienvenido al repositorio del **Curso de TypeScript**! Aquí encontrarás una amplia colección de ejercicios, textos explicativos y soluciones que te guiarán desde los fundamentos básicos hasta conceptos avanzados en TypeScript.
 
-![TypeScript Logo](https://img.icons8.com/material-sharp/48/000000/typescript.png)
+![TypeScript Logo](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg)
 
 ## ¿Qué es TypeScript?
 
