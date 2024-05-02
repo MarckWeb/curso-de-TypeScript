@@ -4,7 +4,7 @@
 
 ---
 <div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2022.svg/250px-Typescript_logo_2022.svg.png" width="200"/>
+    <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" width="200"/>
 </div>
 
 ---
