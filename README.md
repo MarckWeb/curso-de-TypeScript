@@ -5,9 +5,11 @@
 En este repositorio, encontrarás todos mis apuntes y notas que tomé mientras realizaba el curso de TypeScript. Desde conceptos básicos hasta temas más avanzados, aquí encontrarás recursos útiles para aprender y repasar TypeScript.
 
 ---
+
 <div align="center">
     <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" width="200"/>
 </div>
+
 ---
 
 ## ¿Qué es TypeScript?
