@@ -1,6 +1,6 @@
 En TypeScript, type se utiliza para definir tipos de datos personalizados. Los tipos personalizados permiten especificar la estructura y forma de los datos que se pueden utilizar en una aplicación. Puedes usar type para crear alias de tipos, lo que facilita la reutilización y la creación de código más legible y mantenible.
 
-```
+```ts
 type Coordenada = {
   x: number;
   y: number;
